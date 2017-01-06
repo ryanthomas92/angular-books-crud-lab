@@ -72,5 +72,6 @@ The `solutions` branch has a fully built-out application that meets all the expe
 
 ### Stretch Challenges
 
+1. **Allow the user to add a book:** add a form on the index page that lets a user enter information for a new book.  Read the [super CRUD API documentation](https://github.com/SF-WDI-LABS/super-crud-api) documentation or code to see what fields you need to send in the request body. 
 2. **Allow the user to edit the book image:** allow the user to change the URL for the book image.
 3. **Add filters to organize the books index page:** add a search bar to filter the books by your search, or buttons to sort them alphabetically by author name or book title.
