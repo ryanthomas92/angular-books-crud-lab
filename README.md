@@ -60,7 +60,7 @@ The `solutions` branch has a fully built-out application that meets all the expe
 
 * The books API is set up with RESTful routes, so follow RESTful routing conventions.  You can test endpoints with Postman or cURL, or by setting up a simple request to trigger them.
 * Look at (`console.log`) the data you get back from each `$http` request!
-* If you want to change the page url from within a controller, you'll have to interact with the routing setup a little. Inject the [`$location`](https://docs.angularjs.org/api/ng/service/$location) service into your controller, and use its `path` method.
+* If you want to change the page url from within a controller, you'll have to interact with the routing setup a little. Inject the [`$location`](https://docs.angularjs.org/api/ng/service/$location) service into your controller, and use its `path` method. You will probably want to do this with the BooksShowController, so `$location` is included there. 
 
     * <details><summary>click for example</summary>  
 
