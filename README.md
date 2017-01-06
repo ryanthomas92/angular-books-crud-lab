@@ -51,7 +51,7 @@ The `solutions` branch has a fully built-out application that meets all the expe
 1. Fork and clone this repo.
 2. Change directories into `angular-books-crud-lab`.
 3. **Move to the `starter-wdi34` branch, then create a branch for your work!**
-4. Since this app uses Angular's client-side routing,  the app will need to be served from a simple server. **Run `budo --pushstate --host=localhost --open` from the Terminal (inside your project directory).** This starts a simple server that by default will serve up your `index.html` on `/` and any route it doesn't recognize (like `/books`)!  Note: Your `index.html` *must* be in your main project directory for this server setup.
+4. Since this app uses Angular's client-side routing,  the app will need to be served from a simple server. **Run `budo --pushstate --host=localhost --open` from the Terminal (inside your project directory).** This starts a simple server that by default will serve up your `index.html` on `/` and any route it doesn't recognize (like `/books`)!  Note: Your `index.html` *must* be in your main project directory for this server setup.  **If you don't have the budo command on your computer yet,** run `npm install -g budo`.
 4. Take inventory of the provided code - what do you see in the browser console when you visit the site?
 
 ### Tips
