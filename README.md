@@ -75,3 +75,18 @@ The `solutions` branch has a fully built-out application that meets all the expe
 2. **Allow the user to edit the book image:** allow the user to change the URL for the book image.
 3. **Add filters to organize the books index page:** add a search bar to filter the books by your search, or buttons to sort them alphabetically by author name or book title.
 1. **Allow the user to add a book:** add a form on the index page that lets a user enter information for a new book.  Read the [super CRUD API documentation](https://github.com/SF-WDI-LABS/super-crud-api) documentation or code to see what fields you need to send in the request body. 
+
+### Screenshots
+
+#### Book Index Page 
+
+![book index page](https://cloud.githubusercontent.com/assets/3254910/21735367/2e0aa7c2-d41e-11e6-9091-bc97308474bf.png)
+
+#### Book Show Page 
+
+##### Default
+
+![book show page](https://cloud.githubusercontent.com/assets/3254910/21735369/356f641c-d41e-11e6-8ff8-2b4cba1a39bb.png)
+
+##### While Editing
+![book show page - editing](https://cloud.githubusercontent.com/assets/3254910/21735373/3d0bac44-d41e-11e6-871e-b965281b58c1.png)
