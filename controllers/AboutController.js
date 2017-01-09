@@ -1,6 +1,9 @@
 angular.module('libraryApp')
   .controller('AboutController', AboutController);
 
-AboutController.$inject = ($http) {
+AboutController.$inject = []
+function AboutController() {
   var vm = this;
+
+  vm.name = "Ryan";
 }
