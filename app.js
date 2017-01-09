@@ -14,6 +14,11 @@ function config (  $routeProvider,   $locationProvider  )  {
       controller: 'BooksIndexController',         // uses this controller
       controllerAs: 'booksIndexCtrl'              // with this name
     })
+    .when('/about', {
+      templateUrl: '/templates/about.html',
+      controller: 'AboutController',
+      controllerAs: 'aboutCtrl'
+    })
     .when('/books/:id', {
       templateUrl: 'templates/books/show.html',
       controller: 'BooksShowController',
