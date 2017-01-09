@@ -30,9 +30,9 @@ function BooksShowController($routeParams, $location, $http) {
         image: book.image
       },
     }).then(function successCallback(editedBook) {
-      // var index = vm.book.indexOf(editedBook);
-      // vm.book.splice(index, 1, editedBook);
-      // $location.path('/');
+      $location.path('/');
+      console.log('here\'s the UPDATED data for book', bookId, ':', editedBook.data);
+      vm.book = editedBook.data;
     }, function errorCallback(error) {
       console.log("There's an error " + error);
     });
